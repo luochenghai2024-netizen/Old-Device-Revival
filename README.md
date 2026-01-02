@@ -28,34 +28,10 @@ This project aims to enable older Android devices to run newer Android systems b
 
 | Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Under Testing | GPU Not Working Properly in OpenGL (Skia) |
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Bootloader unlocked
-
-- TWRP Recovery installed
-
-- Back up important data
-
-### Flashing Steps
-
-1. Download the corresponding boot.img file
-
-2. Enter Fastboot mode: `adb reboot bootloader`
-
-3. Flash the boot image: `fastboot flash boot boot.img`
-
-4. Reboot the device: `fastboot reboot`
-
 ## 📁 File Description
 
 - `boot.img` - Custom kernel image for Huawei DRA-AL00/DUA-AL00
-
-- `scripts/` - Automated script directory
-
-- `docs/` - Detailed documentation
-
+- `twrp.img` - Twrp recovery image for Huawei DRA-AL00/DUA-AL00
 ## 🤝 Contribution
 
 Contributions in any form are welcome! You can:
@@ -75,3 +51,5 @@ Contributions in any form are welcome! You can:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[[GitHub release](https://github.com/luochenghai2024-netizen/Old-Device-Revival/releases)]
