@@ -1,2 +1,77 @@
-# Old-Device-Revival
-My equipment: DRA-AL00/DUA-AL00. I want to get it working smoothly and fix some issues. I'm maintaining this project by myself.
+# Old-Device-Revival 🚀
+
+*An open-source project that gives old devices a new lease on life - an Android system porting solution based on Generic System Image (GSI)*
+
+## 📖 Project Introduction
+
+This project aims to enable older Android devices to run newer Android systems by porting Generic System Image (GSI), improving device performance and security.
+
+**Currently Main Devices**: Huawei DRA-AL00/DUA-AL00
+
+## 🛠️ Features
+
+- ✅ Based on Android GSI
+
+- ✅ Kernel Optimization and Driver Fixes
+
+- ✅ System Performance Tuning
+
+## 📋 Device Support List
+
+| Device Model | Android Base Version | Upgradeable to | Status | Main Issues |
+
+|---------|-----------------|---------|------|---------|
+
+| Huawei DUA-AL00 | Android 8.1.0 | Android 9 GSI | Complete | Auto Brightness, VoLTE |
+
+| Huawei DUA-AL00 | Android 8.1.0 | Android 10 GSI | Under Testing | Slight UI Lag, VoLTE |
+
+| Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Under Testing | GPU Not Working Properly in OpenGL (Skia) |
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Bootloader unlocked
+
+- TWRP Recovery installed
+
+- Back up important data
+
+### Flashing Steps
+
+1. Download the corresponding boot.img file
+
+2. Enter Fastboot mode: `adb reboot bootloader`
+
+3. Flash the boot image: `fastboot flash boot boot.img`
+
+4. Reboot the device: `fastboot reboot`
+
+## 📁 File Description
+
+- `boot.img` - Custom kernel image for Huawei DRA-AL00/DUA-AL00
+
+- `scripts/` - Automated script directory
+
+- `docs/` - Detailed documentation
+
+## 🤝 Contribution
+
+Contributions in any form are welcome! You can:
+
+- Report bugs
+
+- Submit feature requests
+
+- Improve documentation
+
+- Submit code fixes
+
+## 📞 Contact Us
+
+- Email: luochenghai2024@gmail.com & luochenghai2022@outlook.com
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
