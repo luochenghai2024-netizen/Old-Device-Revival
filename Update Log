@@ -1,10 +1,20 @@
-lineageOS 16.0:
-1.Removed the built-in input method and browser, replacing them with Via and Gboard respectively; 
-2.removed redundant vndk libraries; 
-3.removed Huawei supplier HAL
+LineageOS 16.0:
+
+1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
+2. Removed redundant VNDK libraries: vndk28, vndk-sp28, vndk26, and vndk-sp26 under system/lib and system/lib64;
+3. Removed the @x.x-service binaries for vendor.huawei.hardware.biometrics.hwfacerecognize, 
+vendor.huawei.hardware.tp, 
+endor.huawei.hardware.sensors,
+vendor.huawei.hardware.power,
+vendor.huawei.hardware.otherdevices,
+vendor.huawei.hardware.light,
+vendor.huawei.hardware.hwfactoryinterface,
+vendor.huawei.hardware.hwdisplay.
+4. Removed Huawei supplier HALs (see 3);
+5. Removed the corresponding HAL startup scripts (see 3).
 
 lineageOS 17.1:
-1.Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
-2.Removed redundant vndk libraries;
-3.Removed Huawei vendor HALs; 
-4.Commented out most of the Huawei services declared in the /vendor/manifest.xml manifest file.
+
+1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
+2. Removed redundant VNDK libraries from the system/lib and system/lib64 directories: vndk28, vndk-sp28, vndk29, vndk-sp29, vndk26, and vndk-sp26;
+3. Based on lineage16.0 ROM, most Huawei services declared in the /vendor/manifest.xml manifest file have been commented out.
