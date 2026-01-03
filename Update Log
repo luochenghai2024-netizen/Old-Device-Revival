@@ -1,3 +1,10 @@
-lineageOS 16.0: Removed the built-in input method and browser, replacing them with Via and Gboard respectively; 
-removed redundant vndk libraries; 
-removed Huawei supplier HAL; And commented out most of the Huawei services declared in the /vendor/manifest.xml manifest.
+lineageOS 16.0:
+1.Removed the built-in input method and browser, replacing them with Via and Gboard respectively; 
+2.removed redundant vndk libraries; 
+3.removed Huawei supplier HAL
+
+lineageOS 17.1:
+1.Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
+2.Removed redundant vndk libraries;
+3.Removed Huawei vendor HALs; 
+4.Commented out most of the Huawei services declared in the /vendor/manifest.xml manifest file.
