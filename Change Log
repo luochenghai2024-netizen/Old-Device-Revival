@@ -18,3 +18,6 @@ lineageOS 17.1:
 1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
 2. Removed redundant VNDK libraries from the system/lib and system/lib64 directories: vndk28, vndk-sp28, vndk29, vndk-sp29, vndk26, and vndk-sp26;
 3. Based on lineage16.0 ROM, most Huawei services declared in the /vendor/manifest.xml manifest file have been commented out.
+
+#2026/01/11
+The twrp.img file adds support for metadata partitioning, logo writing, and log formatting, and adds the parted sgdisk binary to /sbin.
