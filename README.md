@@ -52,8 +52,6 @@ Contributions in any form are welcome! You can:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[[GitHub release](https://github.com/luochenghai2024-netizen/Old-Device-Revival/releases)]
-
 ## Credits & Thanks
 
 This ROM is built on the following open-source projects, and I would like to express my sincere gratitude to them:
