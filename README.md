@@ -53,3 +53,19 @@ Contributions in any form are welcome! You can:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 [[GitHub release](https://github.com/luochenghai2024-netizen/Old-Device-Revival/releases)]
+
+## Credits & Thanks
+
+This ROM is built on the following open-source projects, and I would like to express my sincere gratitude to them:
+
+* **[PHH's Treble GSI](https://github.com/phhusson/treble_experimentation)** - @phhusson
+
+* The system image used in this project is compiled based on this project. Thanks to PHH for his outstanding work in the GSI field.
+
+* **[LineageOS](https://lineageos.org/)** / **[AOSP](https://source.android.com/)**
+
+* Provides the basic source code for the Android system.
+
+* **Complete GSI image:** Please go to [PHH's GSI release page](https://github.com/phhusson/treble_experimentation/releases) to download the corresponding version.
+
+--- **License Notice:** This project follows the open-source licenses of its dependent projects (such as Apache License 2.0, GPL, etc.). Please use it while respecting the original project licenses.
