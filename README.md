@@ -56,7 +56,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This ROM is built on the following open-source projects, and I would like to express my sincere gratitude to them:
 
-* **[PHH's Treble GSI](https://github.com/phhusson/treble_experimentations/releases)** - @phhusson
+* **[Phhusson](https://github.com/phhusson)** - @phhusson
 
 * The system image used in this project is compiled based on this project. Thanks to PHH for his outstanding work in the GSI field.
 
