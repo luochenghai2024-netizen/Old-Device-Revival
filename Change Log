@@ -28,3 +28,11 @@ The twrp.img file has been updated to support metadata partitioning, logo writin
 Other Android recovery modes from higher versions with the same processor have been ported. Fastbootd is supported. Other functions are currently unstable and unusable (using them will cause device problems), such as factory reset (after rebooting, the system will display an encryption failure message; you must use twrp to perform a factory reset). This version is purely for testing fastbootd (which allows more writable partitions than fastboot, such as vendor; however, it does not support super partitions, so don't be misled by the information output by fastboot). Do not use other functions yet.
 
 Add twrp to Released.
+
+#2026/01/31
+
+lineageOS 17.1:
+
+Fixed user interface frame rate issues.
+
+lineage-17.1-20210805-UNOFFICIAL stable version has been released.
