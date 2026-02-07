@@ -64,6 +64,6 @@ This ROM is built on the following open-source projects, and I would like to exp
 
 * Provides the basic source code for the Android system.
 
-* **Complete GSI image:** Please go to [PHH's GSI release page](https://github.com/phhusson/treble_experimentation/releases) to download the corresponding version.
+* **Complete GSI image:** Please go to [PHH's GSI release page](https://github.com/phhusson/treble_experimentations/releases) to download the corresponding version.
 
 --- **License Notice:** This project follows the open-source licenses of its dependent projects (such as Apache License 2.0, GPL, etc.). Please use it while respecting the original project licenses.
