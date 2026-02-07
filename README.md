@@ -20,8 +20,6 @@ This project aims to enable older Android devices to run newer Android systems b
 
 | Device Model | Android Base Version | Upgradeable to | Status | Main Issues |
 
-|---------|-----------------|---------|------|---------|
-
 | Huawei DUA-AL00 | Android 8.1.0 | Android 9 GSI | Complete | Auto Brightness, VoLTE |
 
 | Huawei DUA-AL00 | Android 8.1.0 | Android 10 GSI | Complete | Slight UI delay (when just loading the home screen), VoLTE, Hotspot sharing |
