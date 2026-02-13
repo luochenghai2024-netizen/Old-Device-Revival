@@ -1,4 +1,4 @@
-# Old-Device-Revival 🚀
+# Old-Device-Revival 🚀(This project will be suspended from February 13, 2026 to June 9, 2026.)
 
 *An open-source project that gives old devices a new lease on life - an Android system porting solution based on Generic System Image (GSI)*
 
