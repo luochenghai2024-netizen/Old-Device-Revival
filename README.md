@@ -26,10 +26,6 @@ This project aims to enable older Android devices to run newer Android systems b
 
 | Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Under Testing | GPU Not Working Properly in OpenGL (Skia) |
 
-## 📁 File Description
-
-- `boot.img` - Custom kernel image for Huawei DRA-AL00/DUA-AL00
-- `twrp.img` - Twrp recovery image for Huawei DRA-AL00/DUA-AL00
 ## 🤝 Contribution
 
 Contributions in any form are welcome! You can:
