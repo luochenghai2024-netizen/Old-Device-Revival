@@ -1,43 +1,34 @@
 LineageOS 16.0:
 
 1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
-2. Removed redundant VNDK libraries: vndk28, vndk-sp28, vndk26, and vndk-sp26 under system/lib and system/lib64;
-3. Removed the @x.x-service binaries for vendor.huawei.hardware.biometrics.hwfacerecognize, 
-vendor.huawei.hardware.tp, 
-endor.huawei.hardware.sensors,
-vendor.huawei.hardware.power,
-vendor.huawei.hardware.otherdevices,
-vendor.huawei.hardware.light,
-vendor.huawei.hardware.hwfactoryinterface,
-vendor.huawei.hardware.hwdisplay.
-4. Removed Huawei supplier HALs (see 3);
-5. Removed the corresponding HAL startup scripts (see 3).
+
+2. Removed redundant VNDK libraries: vndk28, vndk-sp28, vndk26, and vndk-sp26 in the system/lib and system/lib64 directories;
+
+3. Removed the @x.x-service binaries for vendor.huawei.hardware.biometrics.hwfacerecognize, vendor.huawei.hardware.tp, vendor.huawei.hardware.sensors, vendor.huawei.hardware.power, vendor.huawei.hardware.otherdevices, vendor.huawei.hardware.light, vendor.huawei.hardware.hwfactoryinterface, and vndk-sp26;
+
+4. Removed the Huawei Supplier HAL (see point 3);
+
+5. Removed the corresponding HAL startup scripts (see point 3). (Points).
 
 lineageOS 17.1:
 
 1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
-2. Removed redundant VNDK libraries from the system/lib and system/lib64 directories: vndk28, vndk-sp28, vndk29, vndk-sp29, vndk26, and vndk-sp26;
-3. Based on lineage16.0 ROM, most Huawei services declared in the /vendor/manifest.xml manifest file have been commented out.
 
-#2026/01/11
+2. Removed redundant VNDK libraries: vndk26, vndk-sp26, vndk28, vndk-sp28, vndk29, and vndk-sp29 in the system/lib and system/lib64 directories;
 
-The twrp.img file has been updated to support metadata partitioning, logo writing, and log formatting. The parted sgdisk binary has been added to the /sbin directory.
+3. Based on the lineage16.0 vendor, most Huawei services declared in the /vendor/manifest.xml manifest file have been removed;
 
-#2026/01/18
-
-Other Android recovery modes from higher versions with the same processor have been ported. Fastbootd is supported. Other functions are currently unstable and unusable (using them will cause device problems), such as factory reset (after rebooting, the system will display an encryption failure message; you must use twrp to perform a factory reset). This version is purely for testing；Do not use other functions yet.
-
-Add twrp to Released.
-
-#2026/01/31
-
-Android recovery：
-
-Removed from release ，Because It's unstable
-
-lineageOS 17.1:
-
-Fixed user interface frame rate issues.
+4. Fixed user interface frame rate issues.
 
 lineage-17.1-20210805-UNOFFICIAL stable version has been released.
 
+#2026/04/30
+lineageOS 18.1:
+
+1. Based on lineage16.0 vendor
+
+2. Removed redundant VNDK libraries:
+
+vndk26, vndk-sp26, vndk29, and vndk-sp29 in the system/system_ext/apex directory. Removing vndk28 caused a series of problems, so it was retained.
+
+3. No modifications to built-in system software.
