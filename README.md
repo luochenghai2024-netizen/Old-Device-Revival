@@ -24,7 +24,7 @@ This project aims to enable older Android devices to run newer Android systems b
 
 | Huawei DUA-AL00 | Android 8.1.0 | Android 10 GSI | Complete | Slight UI delay (when just loading the home screen), VoLTE, Hotspot sharing，screen recording |
 
-| Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Under Testing | systemUI Not Working Properly in OpenGL (Skia) ,It will systemUI bootloop |
+| Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Complete | Thanks to 4pda for making the GPU renderer work properly|
 
 ## 🤝 Contribution
 
@@ -51,6 +51,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This ROM is built on the following open-source projects, and I would like to express my sincere gratitude to them:
 
 * **[Treble_experimentations](https://github.com/phhusson/treble_experimentations)** - @phhusson
+
+*  **[4PDA Honor 7A](https://4pda.to/forum/index.php?showtopic=982322#Spoil-93682558-6)** - 4PDA
 
 * The system image used in this project is compiled based on this project. Thanks to PHH for his outstanding work in the GSI field.
 
