@@ -24,7 +24,7 @@ This project aims to enable older Android devices to run newer Android systems b
 
 | Huawei DUA-AL00 | Android 8.1.0 | Android 10 GSI | Complete | Slight UI delay (when just loading the home screen), VoLTE, Hotspot sharing, screen recording |
 
-| Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Complete | Thanks to 4pda Developers for making the GPU renderer work properly, Slight UI delay, VoLTE, Hotspot sharing, screen recording|
+| Huawei DUA-AL00 | Android 8.1.0 | Android 11 GSI | Complete | Slight UI delay, VoLTE, Hotspot sharing, screen recording USB ADB | ( Thanks to 4pda Developers for making the GPU renderer work properly)
 
 ## 🤝 Contribution
 
