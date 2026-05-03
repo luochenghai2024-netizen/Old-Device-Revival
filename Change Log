@@ -29,6 +29,6 @@ lineageOS 18.1:
 
 2. Removed redundant VNDK libraries:
 
-vndk26, vndk-sp26, vndk29, and vndk-sp29 in the system/system_ext/apex directory. Removing vndk28 caused a series of problems, so it was retained.
+com.android.vndk.V26,v29,currentin the system/system_ext/apex directory. Removing vndk28 caused a series of problems, so it was retained.
 
 3. No modifications to built-in system software.
