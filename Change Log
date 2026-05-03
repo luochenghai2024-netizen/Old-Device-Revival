@@ -10,7 +10,7 @@ LineageOS 16.0:
 
 5. Removed the corresponding HAL startup scripts (see point 3). (Points).
 
-lineageOS 17.1:
+LineageOS 17.1:
 
 1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
 
@@ -20,10 +20,10 @@ lineageOS 17.1:
 
 4. Fixed user interface frame rate issues.
 
-lineage-17.1-20210805-UNOFFICIAL stable version has been released.
+Lineage-17.1-20210805-UNOFFICIAL stable version has been released.
 
 #2026/04/30
-lineageOS 18.1:
+LineageOS 18.1:
 
 1. Based on lineage16.0 vendor
 
