@@ -1,34 +1,42 @@
 LineageOS 16.0:
 
-1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
+1. Removed the built-in input method and browser, replaced with Via and Gboard respectively;
 
-2. Removed redundant VNDK libraries: vndk28, vndk-sp28, vndk26, and vndk-sp26 in the system/lib and system/lib64 directories;
+2. Removed redundant VNDK libraries: vndk28, vndk-sp28, vndk26, and vndk-sp26 under system/lib and system/lib64 directories;
 
-3. Removed the @x.x-service binaries for vendor.huawei.hardware.biometrics.hwfacerecognize, vendor.huawei.hardware.tp, vendor.huawei.hardware.sensors, vendor.huawei.hardware.power, vendor.huawei.hardware.otherdevices, vendor.huawei.hardware.light, vendor.huawei.hardware.hwfactoryinterface, and vndk-sp26;
+3. Removed binary files of vendor.huawei.hardware.biometrics.hwfacerecognize, vendor.huawei.hardware.tp, vendor.huawei.hardware.sensors, vendor.huawei.hardware.power, vendor.huawei.hardware.otherdevices, vendor.huawei.hardware.light, vendor.huawei.hardware.hwfactoryinterface, and vndk-sp26 @x.x-service;
 
-4. Removed the Huawei Supplier HAL (see point 3);
+4. Removed Huawei vendor HALs (see point 3);
 
-5. Removed the corresponding HAL startup scripts (see point 3). (Points).
+5. Removed corresponding HAL startup scripts (see point 3).
 
 LineageOS 17.1:
 
-1. Removed the built-in input method and browser, replacing them with Via and Gboard respectively;
+1. Removed the built-in input method and browser, replaced with Via and Gboard respectively;
 
-2. Removed redundant VNDK libraries: vndk26, vndk-sp26, vndk28, vndk-sp28, vndk29, and vndk-sp29 in the system/lib and system/lib64 directories;
+2. Removed redundant VNDK libraries: vndk26, vndk-sp26, vndk28, vndk-sp28, vndk29, and vndk-sp29 under system/lib and system/lib64 directories;
 
-3. Based on the lineage16.0 vendor, most Huawei services declared in the /vendor/manifest.xml manifest file have been removed;
+3. Based on lineup16.0 vendor version, most Huawei services declared in /vendor/manifest.xml manifest file have been removed;
 
 4. Fixed user interface frame rate issues.
 
-Lineage-17.1-20210805-UNOFFICIAL stable version has been released.
+lineage-17.1-20210805 unofficial stable version has been released.
 
 #2026/04/30
 LineageOS 18.1:
 
-1. Based on lineage16.0 vendor
+1. Based on lineage16.0 vendor version;
 
-2. Removed redundant VNDK libraries:
+2. Removed redundant VNDK libraries: com.android.vndk.V26, v29, current under system/system_ext/apex directory. Removing vndk28 would cause a series of issues, so this library was retained.
 
-com.android.vndk.V26,v29,currentin the system/system_ext/apex directory. Removing vndk28 caused a series of problems, so it was retained.
+3. Built-in system software remains unchanged.
 
-3. No modifications to built-in system software.
+#2026-05-01
+
+LineageOS 18.1 beta release
+
+#2026-05-03
+
+LineageOS 18.1 alpha release
+
+AOSP 11 release
