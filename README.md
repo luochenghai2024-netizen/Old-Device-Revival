@@ -48,7 +48,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits & Thanks
 
-This ROM is built on the following open-source projects, and I would like to express my sincere gratitude to them:
+This ROM is built upon the ideas of the following open-source projects and some platform developers. I would like to express my sincere gratitude to them:
 
 * **[Treble_experimentations](https://github.com/phhusson/treble_experimentations)** - @phhusson
 
